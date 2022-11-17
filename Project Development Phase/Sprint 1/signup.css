@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/cardiology.jpg);
+
+    background-size: 100%;
+}
+label{
+     width: 140px;
+    display: inline-block;
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    background:white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+    overflow: hidden;
+    margin: 0 20px;
+    }
+h1{
+    text-align: center;
+    text-decoration-color: #47b2e4;
+    color:black;
+    text
+}
+.Username{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+}
+.Username input{
+    position: absolute;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: black;
+}
+.Username input:is(:focus, :valid){
+    border-bottom-color: #ccc;
+    
+}
+.name{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+}
+.name input{
+    position: absolute;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: black;
+}
+.name input:is(:focus, :valid){
+    border-bottom-color: #ccc;
+    
+}
+.Email{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+}
+.Email input{
+    position: absolute;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: black;
+}
+.Email input:is(:focus, :valid){
+    border-bottom-color: #ccc;
+    
+}
+.Mobile{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: ;
+}
+.Mobile input{
+    position: absolute;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: black;
+}
+.Mobile input:is(:focus, :valid){
+    border-bottom-color: #ccc;
+    
+}
+.Blood{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+}
+.Blood select{
+    position: absolute;
+    padding: 0 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: black;
+}
+.Blood option{
+    background: rgba(0.272, 0.272, 0.272, 0.800);
+}
+.Blood select:is(:focus, :valid){
+    border-bottom-color: #ccc;
+    
+}
+.Date{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+}
+.Date input{
+    position: absolute;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: black;
+}
+.Date input:is(:focus, :valid){
+    border-bottom-color: #ccc;
+    
+}
+.password{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+    }
+.password input{
+    position: absolute;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: black;
+}
+.password input:is(:focus, :valid){
+    border-bottom-color: #ccc;
+}
+.password1{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+    }
+.password1 input{
+    position: absolute;
+    padding: 8 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: black;
+}
+.password1 input:is(:focus, :valid){
+    border-bottom-color: #ccc;
+}
+.Gender{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+}
+.Course{
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: black;
+}
+.check{
+    margin-left: 350px;
+    margin-top: 5px;
+    color: black;
+}
+button{
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    width: 150px;
+    height: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 11px;
+}
+
+button:hover{
+    background-color: #143ba6;
+}
+.form .login-signup{
+    margin-top: 10px;
+    text-align: center;
+}
+.form .text{
+    color: #ffff;
+    font-size: 16px;
+}
+
+.form a.text{
+    color: #ffffff;
+    text-decoration: none;
+}
+.form a:hover{
+    color: skyblue;
+}
